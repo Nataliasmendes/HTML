@@ -5,6 +5,17 @@
     src: url(/desafio-cordel/Fontes/exo/Exo-Black.otf) format(opentype);
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: dark;
+
+}
+
 body {
     background-image: url('imagens/background001.jpg');
     background-position: right top;
@@ -17,11 +28,12 @@ body {
 }
 
 header {
-    display: block;
     background-color: black;
+    color: white;
     height: 200px;
     padding: -10;
     margin: -10px;
+    text-align: center;
 }
 
 header h1 {
@@ -29,16 +41,48 @@ header h1 {
     color: white;
     font-size: 4em;
     font-weight: bold;
-    text-align: center;
+    
     padding: 50px;
     padding-bottom: 5px;
     margin: -10px;
+    /*text-transform: uppercase;*/
+    font-variant: small-caps;
 }
 
 header p {
     color: white;
-    text-align: center;
+    padding-bottom: 50px;
+}
 
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgb(0,0,0,0.253);
 }
 
 body p {
@@ -49,19 +93,12 @@ body p {
     padding-left: 20px;
 }
 
-article {
-    margin-top: 30px;
-    padding-top: 30px;;
-}
 
-article.e1 {
-    background-color: white;
-    padding-bottom: 30px;
-    margin: -10px;
-}
 
-article.e2 {
-    background-color: white;
-    padding-bottom: 30px;
-    margin: -10px;
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
