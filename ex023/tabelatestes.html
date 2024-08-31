@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes com Tabelas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            position: relative;
+            
+        }
+
+        thead {
+            position: sticky;
+            top: -1px;
+            border: 1px solid black;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: rgba(155, 32, 255, 0.308);
+        }
+
+        th {
+            border: 1px solid black;
+            text-align: center;
+            background-color: rgb(5, 21, 110);
+            color: white;
+
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        td.titulo {
+            background-color: rgba(221, 154, 247, 0.274);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th scope="col">Personagens</th>
+            <th scope="col">Histórias</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jordana</td>
+                <td rowspan="6" class="titulo">Marota</td>
+            </tr>
+            <tr>
+                <td>James</td>
+            </tr>
+            <tr>
+                <td>Sirius</td>
+            </tr>
+            <tr>
+                <td>Alice</td>
+            </tr>
+            <tr>
+                <td>Marlene</td>
+            </tr>
+            <tr>
+                <td>Dorcas</td>
+            </tr>
+            <tr>
+                <td>Antonieta</td>
+                <td rowspan="6" class="titulo">Love and Prejudice</td>
+            </tr>
+                <td>Narcisa</td>
+            <tr>
+                <td>Michael</td>
+            </tr>
+                <td>Tom</td>
+            <tr>
+                <td>Sirius</td>
+            </tr>
+                <td>James</td>
+            <tr>
+                <td>Pollyanna</td>
+                <td rowspan="6" class="titulo">Pollyanna</td>
+            </tr>
+            <tr>
+                <td>Tom</td>
+            </tr>
+            <tr>
+                <td>Prince</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+            </tr>
+            <tr>
+                <td>Thomas</td>
+            </tr>
+            <tr>
+                <td>Jimmy</td>
+            </tr>
+            <tr>
+                <td>Elizabeth</td>
+                <td rowspan="6" class="titulo">A Preferida</td>
+            </tr>
+            <tr>
+                <td>Tom</td>
+            </tr>
+            <tr>
+                <td>Abraxas</td>
+            </tr>
+            <tr>
+                <td>Druella</td>
+            </tr>
+            <tr>
+                <td>Snape</td>
+            </tr>
+            <tr>
+                <td>Angela</td>
+            </tr>
+            <tr>
+                <td>Luna</td>
+                <td rowspan="6" class="titulo">Uma Nova Chance</td>
+            </tr>
+            <tr>
+                <td>Tom</td>
+            </tr>
+            <tr>
+                <td>Lorcan</td>
+            </tr>
+            <tr>
+                <td>Lysander</td>
+            </tr>
+            <tr>
+                <td>Harry</td>
+            </tr>
+            <tr>
+                <td>Hermione</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
