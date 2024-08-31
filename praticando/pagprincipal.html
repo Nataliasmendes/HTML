@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            color: black;
+            text-decoration: none;
+            padding: 15px;
+        }
+
+        a:active {
+            font-weight: bolder;
+        }
+
+        iframe {
+            height: 370px;
+            width: 520px;
+            border: 2px solid black;
+            background-position: left bottom;
+        }
+        
+        body {
+            margin:auto;
+            padding: 10px;
+            text-align: center;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <a href="imagem1.html" target="frame">Pollyanna</a>
+    <a href="imagem2.html" target="frame">L&P</a>
+    <a href="imagem3.html" target="frame">Uma Nova Chance</a>
+
+    <!--<iframe id="capas" name="frame" src="imagem1.html" frameborder="1" scrolling="no"></iframe>-->
+
+    <iframe id="capas" name="frame" srcdoc="imagem1.html" frameborder="1" scrolling="no"></iframe>
+
+</body>
+</html>
