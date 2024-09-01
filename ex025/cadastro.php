@@ -1,0 +1,1 @@
+Você precisa aprender php.
