@@ -7,10 +7,15 @@
 </head>
 <body>
     <h1>Teste de formulário</h1>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="post">
 
     <fieldset>
         <legend>Dados Pessoais</legend>
+            <p>
+                <label for="iperfil">Foto de Perfil</label>
+                <input type="file" name="perfil" id="iperfil">
+            </p>
+        
             <p>
                 <label for="inome">Nome:</label>
                 <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
@@ -43,6 +48,17 @@
         <p>
             <label for="ihora">Horário da Prova</label>
             <input type="time" name="hora" id="ihora">
+        </p>
+
+        <p>
+            <label for="icor">Cor da Prova</label>
+            <input type="color" name="cor" id="icor">
+            <!--Não serve para este caso pois abre muitas opções de cores-->
+        </p>
+
+        <p>
+            <label for="idif">Nivel de dificuldade</label>
+            <input type="range" name="dif" id="idif" min="1" max="5" value="1">
         </p>
     </fieldset>
 
