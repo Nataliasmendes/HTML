@@ -5,22 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <style>
-        /*Declarações de retrato*/
-        @media  and (orientation: portrait) {
-            body {
-                background: url(../imagens/cev-portrait.jpg);
-                background-position: center bottom;
-                }
-        }
-
-        /*Declarações de paisagem*/
-        @media screen and (orientation: landscape) {
-            body {
-                background: url(../imagens/cev-landscape.jpg);
-                background-position: left bottom;
-                }
-        }
-
         /*Declarações Gerais*/
         * {
             margin: 0px;
@@ -41,6 +25,21 @@
             text-shadow: 3px 3px 0px black;
             padding: 10px;
             }
+        /*Declarações de retrato*/
+        @media  and (orientation: portrait) {
+            body {
+                background: url(../imagens/cev-portrait.jpg);
+                background-position: center bottom;
+                }
+        }
+
+        /*Declarações de paisagem*/
+        @media screen and (orientation: landscape) {
+            body {
+                background: url(../imagens/cev-landscape.jpg);
+                background-position: left bottom;
+                }
+        }
     </style>
 </head>
 <body>
