@@ -22,8 +22,8 @@ header > h1 {
 
 
 span#burguer {
-    background-color: rgba(15, 15, 15, 0.808);
-    color: white;
+    background-color: rgba(0, 0, 0, 0.808);
+    color: rgb(255, 255, 255);
     text-align: center;
     display: block;
     padding: 10px;
@@ -33,7 +33,6 @@ span#burguer {
 #burger:hover {
     background-color: rgb(0, 0, 0);
     color: white;
-
 }
 
 menu {
