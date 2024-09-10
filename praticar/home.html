@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        header {
+            background-image: url(filme.jpg);
+            background-position: center bottom;
+            background-size: cover;
+            height: 200px;
+            position: relative;
+        }
+
+        menu {
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translate(-50%);
+
+            background-color: rgb(235, 197, 197);
+            padding: 10px;
+        }
+
+        menu > a {
+            padding: 10px;
+            padding-bottom: 10px;
+            text-decoration: none;
+            color: black;
+            border-left: solid;
+        }
+
+        article {
+            display: block;
+            float: left;
+            width: 500px;
+            background-color: white;
+            text-indent: 40px;
+            margin-top: 100px;
+            margin-left: 30px;
+        }
+
+        aside {
+            display: block;
+            margin: 70px;
+            float: right;
+        }
+
+        video {
+            width: 400px;
+            height: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <menu>
+            <a href="home.html">Home</a>
+            <a href="contato.html">Quem sou eu</a>
+            <a href="#">Suporte Técnico</a>
+            <a href="letras.html">Letras</a>
+            <a href="ladoescritora.html">Escritora de histórias</a>
+        </menu>
+    </header>
+    <article>
+        <p>Projeto pessoal de construção de um site com diversas páginas: profissional, pessoal, hobbies. A ideia é sempre aprimorá-lo para praticar. </p>
+        
+    </article>
+    <aside>
+        <h3>Trailers</h3>
+        <h4>Trailer Fanfic Pollyanna</h4>
+        <video controls src="trailerpollyanna.mp4"></video>
+        <br>
+        <h4>Trailer A Preferida</h4>
+        <video controls src="A preferida.mp4"></video>
+        <h4>Trailer Marota</h4>
+        <video controls src="Marota.mp4"></video>
+    </aside>
+</body>
+</html>
